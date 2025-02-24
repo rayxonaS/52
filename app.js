@@ -1,13 +1,14 @@
-/*const article = document.querySelector("article");
-console.log(article.children);
-Array.from(article.children).forEach((child) => {
-  child.classList.add("article-child");
-});*/
+const showBtn = document.getElementById("show-btn");
+const modal = document.getElementById("modal");
+const closeBtn = document.getElementById("close-btn");
+const overlay = document.getElementById("overlay");
 
-const title = document.querySelector("h2");
-console.log(title.parentElement);
-console.log(title.parentElement.parentElement);
-console.log(title.nextElementSibling);
-console.log(title.previousElementSibling);
+showBtn.addEventListener("click", () => {
+  modal.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+});
 
-console.log(title.nextElementSibling.parentElement.children);
+closeBtn.addEventListener("click", () => {
+  modal.classList.add("hidden");
+  overlay.classList.add("hidden");
+});
