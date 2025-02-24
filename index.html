@@ -4,32 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>52-dars</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
   <body>
-    <h1>Parent, Children & Sibling elementlar</h1>
-    <article>
-      <p>Previous element</p>
-      <h2>Article title</h2>
-      <p>
-        REAL MADRID Является одним из самых титулованных клубов в испанском
-        футболе. На его счету 71 национальный трофей: 36 титулов чемпиона страны
-        (рекорд), а также 20 Кубков Короля/Генералиссимуса, 13 Суперкубков
-        Испании, 1 Кубок испанской лиги и 1 Кубок Эвы Дуарте
-      </p>
-      <p>
-        Является рекордсменом по количеству побед и голов в Лиге чемпионов (15
-        раз, единственная команда, выигрывавшая этот турнир — тогда ещё Кубок
-        Европейских чемпионов — пять раз подряд, и единственная команда,
-        выигрывавшая Лигу чемпионов в современном формате трижды подряд).
-      </p>
-      <p>
-        Согласно данным пресс-службы клуба, по итогам сезона 2023/24 «Реал
-        Мадрид» стал первым в истории, чей операционный доход суммарно превысил
-        €1 млрд[4]. В 2024 году согласно данным Forbes признан самым дорогим
-        футбольным клубом мира, с совокупной стоимостью $6,6 млрд
-      </p>
-      <div>Found by Raykhona</div>
-    </article>
+    <div class="wrapper">
+      <button class="btn show-btn" id="show-btn">Show Model</button>
+      <div class="modal" id="modal">
+        <div class="modal-header">
+          <h3>I love BMW</h3>
+          <button class="btn close-btn" id="close-btn">
+            <i class="fas fa-close"></i>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <h2 class="modal-title">Modal Title</h2>
+          <p>
+            BMW AG (рус. Бэ-Эм-Вэ́[3]) — немецкий производитель автомобилей,
+            мотоциклов, двигателей, а также велосипедов. Более 45 % акций
+            принадлежит семье Квандт[4]. Председателем правления компании
+            является Оливер Ципсе. Главный дизайнер — Йозеф Кабан[5]. В списке
+            крупнейших публичных компаний мира Forbes Global 2000 за 2022 год
+            BMW Group заняла 64-е место[6], а в списке Fortune Global 500 — 59-е
+            место[7]. Девиз компании — «Freude am Fahren», с нем. — «С
+            удовольствием за рулём». Для англоязычных стран был придуман также
+            девиз «The Ultimate Driving Machine» (с англ. — «Идеальная машина
+            для вождения»)
+          </p>
+        </div>
+      </div>
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>
