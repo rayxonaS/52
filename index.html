@@ -13,7 +13,7 @@
   <body>
     <div class="wrapper">
       <button class="btn show-btn" id="show-btn">Show Model</button>
-      <div class="modal" id="modal">
+      <div class="modal hidden" id="modal">
         <div class="modal-header">
           <h3>I love BMW</h3>
           <button class="btn close-btn" id="close-btn">
@@ -24,20 +24,21 @@
         <div class="modal-body">
           <h2 class="modal-title">Modal Title</h2>
           <p>
-            BMW AG (рус. Бэ-Эм-Вэ́[3]) — немецкий производитель автомобилей,
-            мотоциклов, двигателей, а также велосипедов. Более 45 % акций
-            принадлежит семье Квандт[4]. Председателем правления компании
-            является Оливер Ципсе. Главный дизайнер — Йозеф Кабан[5]. В списке
-            крупнейших публичных компаний мира Forbes Global 2000 за 2022 год
-            BMW Group заняла 64-е место[6], а в списке Fortune Global 500 — 59-е
-            место[7]. Девиз компании — «Freude am Fahren», с нем. — «С
-            удовольствием за рулём». Для англоязычных стран был придуман также
-            девиз «The Ultimate Driving Machine» (с англ. — «Идеальная машина
-            для вождения»)
+            BMW AG — немецкий производитель автомобилей, мотоциклов, двигателей,
+            а также велосипедов. Более 45 % акций принадлежит семье Квандт.
+            Председателем правления компании является Оливер Ципсе. Главный
+            дизайнер — Йозеф Кабан. В списке крупнейших публичных компаний мира
+            Forbes Global 2000 за 2022 год BMW Group заняла 64-е место, а в
+            списке Fortune Global 500 — 59-е место. Девиз компании — «Freude am
+            Fahren», с нем. — «С удовольствием за рулём». Для англоязычных стран
+            был придуман также девиз «The Ultimate Driving Machine» (с
+            англ. — «Идеальная машина для вождения»)
           </p>
         </div>
       </div>
     </div>
+
+    <overlay class="overlay" id="overlay"></overlay>
     <script src="./app.js"></script>
   </body>
 </html>
